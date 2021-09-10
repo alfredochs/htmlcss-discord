@@ -100,3 +100,29 @@ header ul li{
     padding: 10px 20px;
 }
 /* ******************* */
+/* SECOND PAGE */
+section{
+    background-color: white;
+}
+section div{
+    float: left;
+}
+.image-container{
+    text-align: center;
+    /* padding: 20px; */
+}
+section img{
+    padding: 70px 0;
+    max-width: 600px;
+}
+.txt-container-section{
+    padding-top: 100px;
+}
+.txt-container-section h2{
+    font-size: 41px;
+    line-height: 45px;
+    padding-bottom: 20px;
+}
+.txt-container-section p{
+    font-size: 17px;
+}
