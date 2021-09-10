@@ -16,6 +16,7 @@
 .colonna4-6{
     width: calc(100% / 6 * 4);
 }
+
 .btn-white{
     background-color: white;
     color: black;
@@ -125,4 +126,13 @@ section img{
 }
 .txt-container-section p{
     font-size: 17px;
+}
+/* Last section */
+.txt-container-last-section{
+    text-align: center;
+}
+
+section .big-image{
+    padding: 0;
+    margin: auto;
 }
