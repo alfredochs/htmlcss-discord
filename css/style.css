@@ -140,6 +140,24 @@ section .normal-image{
 }
 /* 
 /* Last section */
+
+section .last{
+    text-align: center;
+}
+
+section .question-container{
+    position: relative;
+    display: inline-block;
+}
+
+section .question-container img {
+    position: absolute;
+    max-width: 300px;
+}
+
+
+
+
 /* .txt-container-last-section{
     text-align: center;
 }
