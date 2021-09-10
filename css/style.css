@@ -32,6 +32,15 @@
     color: white;
     border-radius: 20px;
 }
+.btn-purple{
+    background-color: #8EA1E1;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
 /*****/
 header{
     background-image: url(../img/jumbo.png);
@@ -112,27 +121,46 @@ section div{
     text-align: center;
     /* padding: 20px; */
 }
-section img{
+section .normal-image{
     padding: 70px 0;
     max-width: 600px;
 }
 .txt-container-section{
     padding-top: 100px;
 }
-.txt-container-section h2{
+.txt-container-section h2,
+.txt-container-last-section h2{
     font-size: 41px;
     line-height: 45px;
     padding-bottom: 20px;
 }
-.txt-container-section p{
+.txt-container-section p,
+.txt-container-last-section p{
     font-size: 17px;
 }
+/* 
 /* Last section */
-.txt-container-last-section{
+/* .txt-container-last-section{
     text-align: center;
 }
-
 section .big-image{
-    padding: 0;
-    margin: auto;
+    padding: 0 45px;
 }
+.question{
+    position: relative;
+    padding: 50px 0;
+}
+/* .question img{
+} */
+/* .question span{
+    font-weight: bold;
+    font-size: 25px;
+}
+section a{
+    text-decoration: none;
+} 
+
+/* FOOTER */
+footer{
+    background-color: #23272B;
+} 
