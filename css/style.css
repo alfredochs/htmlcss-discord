@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+/* clssi generali */
+.colonna1-6{
+    width: calc(100% / 6);
+}
+
+.colonna2-6{
+    width: calc(100% / 6 * 2);
+}
+
+.colonna4-6{
+    width: calc(100% / 6 * 4);
+}
+.btn-white{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+.btn-white-small{
+    font-size: 12px;
+    padding: 5px 10px;
+
+}
+.btn-black{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+/*****/
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    color: white;
+}
+.general-container{
+    width: 920px;
+    margin: auto;
+    /* border: 1px solid; */
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* NAVIGATION */
+.navigation{
+    padding: 20px 0;
+}
+/* LOGO NAV */
+.logo-container{
+    float: left;
+}
+.logo-img{
+    width: 80px;
+}
+/* LISTA NAV */
+.list-container{
+    float: left;
+}
+header ul{
+    list-style: none;
+    text-align: center;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+/* ACCEDI */
+.accedi-container{
+    float: left;
+}
+.link-access{
+    float: right;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+/*  */
+.txt-container{
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.txt-container h1{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.txt-container p{
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+.txt-container a{
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 20px;
+}
+/* ******************* */
