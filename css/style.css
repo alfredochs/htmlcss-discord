@@ -41,6 +41,7 @@
     left: 50%;
     transform: translate(-50%, -50%); */
 }
+
 /*****/
 header{
     background-image: url(../img/jumbo.png);
@@ -111,8 +112,8 @@ header ul li{
 }
 /* ******************* */
 /* SECOND PAGE */
-section{
-    background-color: white;
+.bg-gray{
+    background-color: #F6F6F6;
 }
 section div{
     float: left;
@@ -128,20 +129,55 @@ section .normal-image{
 .txt-container-section{
     padding-top: 100px;
 }
-.txt-container-section h2,
-.txt-container-last-section h2{
+/* .txt-container-last-section h2, */
+.txt-container-section h2{
     font-size: 41px;
     line-height: 45px;
     padding-bottom: 20px;
 }
-.txt-container-section p,
-.txt-container-last-section p{
+.txt-container-section p{
     font-size: 17px;
 }
+
 /* 
 /* Last section */
+/*  */
 
+.general-container.lst-section{
+    text-align: center;
+}
+.text-general-container{
+    padding: 0 55px;
+    padding-top: 60px;
+}
+.text-general-container h2{
+    padding-bottom: 30px;
+}
 
+.btn-purple-big{
+    background-color: #8EA1E1;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+.download{
+    padding-bottom: 90px;
+}
+.question-img-container{
+    position: relative;
+    padding-bottom: 70px;
+    margin: auto;
+}
+.stars{
+    max-width: 60%;
+}
+.question-img-container .question{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
 /* FOOTER */
 footer{
     background-color: #23272B;
