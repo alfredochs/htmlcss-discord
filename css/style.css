@@ -196,6 +196,11 @@ footer .colonna{
 }
 footer .horizontal-list li{
     display: inline-block;
+    padding-top: 10px;
+}
+footer .horizontal-list li{
+    margin-right: 15px;
+    font-size: 14px;
 }
 footer h5, h4{
     color: #8EA1E1;
